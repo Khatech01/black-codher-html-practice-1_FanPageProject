@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200&display=swap');
+/* For mobile phones: */
+@media (min-width: 480px) {
+    body {
+      font-size: 14px;
+      background: #3D3B8E;
+      color: #fff;
+    }
+    h1 {
+      font-size: 20px;
+    }
+  }
+
+
+/*Others devices: Tablet/Laptop/Desktop*/
+body {
+    font-family: 'Urbanist';
+    font-size: 26px;
+    background: #B0E298;
+    color: #000;
+  } 
+h1 {
+    font-size: 50px;
+  }
+
