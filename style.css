@@ -23,9 +23,16 @@ h1 {
     font-size: 50px;
   }
 
-/*Flexbox styling for non moile phone devices*/
+/*Grid styling for non moile phone devices*/
 .container {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: auto 500px;
+    grid-template-rows: auto auto;
+    gap: 20px;
     align-items: center;
-    }
+    justify-items: center;}
+
+.img{
+  grid-template-columns: 1;
+  grid-template-columns: 2;
+}
